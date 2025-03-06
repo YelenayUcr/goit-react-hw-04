@@ -1,7 +1,7 @@
 .header {
   display: flex;
   justify-content: center;
-  background-color: #eeeeee;
+  background-color: #8095f3;
   padding: 16px;
 }
 
@@ -16,16 +16,24 @@
   font-size: 16px;
 }
 
-.button {
-  padding: 8px 16px;
-  cursor: pointer;
-  background-color: #2196f3;
-  color: white;
-  border: none;
-  font-weight: bold;
-  border-radius: 4px;
+.searchContainer {
+  display: flex;
+  align-items: center;
+  background: white;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 5px 10px;
 }
 
-.button:hover {
-  background-color: #0b7dda;
+.icon {
+  font-size: 18px;
+  color: gray;
+  margin-right: 5px;
+}
+
+.input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 5px;
 }
