@@ -1,0 +1,26 @@
+.modalContent {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  margin: auto;
+}
+
+.modalImage {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+}
+
+.closeButton {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
