@@ -18,6 +18,8 @@ function ImageModal({ isOpen, onClose, imageUrl }) {
       background: 'none',
       border: 'none',
       padding: 0,
+      maxWidth: '90vw',
+      maxHeight: '90vh',
     },
     overlay: {
       backgroundColor: 'rgba(0, 0, 0, 0.8)',

@@ -9,5 +9,21 @@
 }
 
 .galleryItem {
+
   cursor: pointer;
+}
+.modalContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 90vw;
+  max-height: 90vh;
+}
+
+.modalImage {
+  max-width: 100%;
+  max-height: 80vh;
+  height: auto;
+  border-radius: 8px;
 }
